@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+}
+
+.conteiner {
+    max-width: 100%;
+    min-width: 320px;
+}
+
+.header {
+    background: url(../img/hbg.jpg) top center no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    padding: 0 0 240px 0;
+}
+.wrap {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header__top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px 0 130px 0;
+}
+.header__logo {
+}
+.header__menu ul{
+    list-style: none;
+    display: flex;
+}
+.header__menu ul li {
+    margin: 0 20px;
+}
+.header__menu ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+.header__menu ul li a:hover {
+    text-decoration: underline;
+}
+.header h1 {
+    text-align: center;
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+.header h3 {
+    text-align: center;
+    font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 100px;
+}
+.header__button {
+    text-align: center;
+}
+.header__button a {
+    color: #ffffff;
+    font-size: 16px;
+    text-decoration: none;
+    border: 2px;
+}
