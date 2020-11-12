@@ -72,3 +72,40 @@ body {
 .header__button a:hover{
     background: #fb414e;;
 }
+
+.feature {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.feature__element {
+    background: #202b30;
+    flex-basis: 32%;
+    flex-wrap: wrap;
+    color: #ffffff;
+    padding: 70px 55px;
+    box-sizing: border-box;
+}
+.feature__element img {
+    margin-bottom: 50px;
+}
+.feature__element h3 {
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+} 
+.feature__element h3::after{
+    content: "";
+    width: 50px;
+    height: 3px;
+    background: #ffffff;
+    display: block;
+    margin: 25px 0 25px 0;
+}
+.feature__element p {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 28px;
+}
